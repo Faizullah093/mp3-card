@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(59, 59, 59);
+
+}
+.card{
+    position: absolute;
+    background: black;
+    width: 280px;
+    height: 400px;
+    position: fixed;
+    top: 25%;
+    left: 40%;
+    border-radius: 8px;
+   
+}
+.photo{
+    background: url(faizy.jpg) no-repeat;
+    position: fixed;
+    width: 270px;
+    height: 320px;
+    top: 25%;
+    left: 40%;
+    margin: 4.5px;
+    border-radius: 4px;
+}
+
+
+.photo2{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background: url(faizy.jpg) no-repeat;
+    background-size: cover;
+    z-index: 2;
+    animation: rot 8s linear infinite;
+    animation-play-state: paused;
+    transition: 0.3s;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.icoun{
+    position: absolute;
+    top: 87%;
+    left: 49%;
+    transform: translate(-50%);
+}
+   
+.icoun i{
+    display: inline-flex;
+    margin: 4px;
+    color: white;
+    font-size: 35px;
+}
+.icoun2{
+    position: absolute;
+    top: 89%;
+    left: 80%;
+   
+}
+.icoun2 i{
+    display: inline-flex;
+    color: white;
+    font-size: 25px;
+}
+.icoun3{
+    position: absolute;
+    top: 89%;
+    left: 10%;
+   
+}
+.icoun3 i{
+    display: inline-flex;
+    color: white;
+    font-size: 23px;
+}
+.icoun4{
+    position: absolute;
+    top: 27%;
+    left: 55%;
+   
+}
+.icoun4 i{
+    display: inline-flex;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+}
